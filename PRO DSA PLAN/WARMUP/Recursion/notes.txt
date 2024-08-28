@@ -1,0 +1,21 @@
+
+
+def recursion(n):
+
+    if n == 0:
+        return 0  ## Now process start to send answer upward
+    
+    return n + recursion(n-1)
+
+
+
+Time complexity taken by recursion while expanding is stored in form of stack:
+
+and when it got his answer and moves upward to finally return answer.
+At each step it pop his element from stack and ultimatly my memory gets constant which is O(1)
+
+So, TC --> TC O(N)
+    SC --> O(1)
+
+
+
